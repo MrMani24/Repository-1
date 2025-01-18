@@ -1,0 +1,64 @@
+@font-face {
+    font-family: iranSans;
+    src: url(./../Font/iranSans.woff2);
+}
+
+@font-face {
+    font-family: Vazir;
+    src: url(../Font/Vazir-Medium-FD.woff2);
+}
+
+* {
+    font-family: iranSans;
+}
+
+body {
+    margin: 0;
+    direction: rtl;
+}
+body>a{
+    position: absolute;
+    top:1%;
+    right: 1%;
+    border: solid 1px;
+    background-color: azure;
+    padding: 0.5em;
+    text-decoration: none;
+}
+
+.Registration {
+    background-color: cadetblue;
+    width: 30vw;
+    padding: 1em;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.Registration form>div {
+    margin-bottom: 1em;
+}
+
+.Registration form label,
+.Registration form input {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.Registration form button {
+    background-color: rgb(7, 58, 121);
+    border: none;
+    border-radius: 0.2em;
+    width: 100%;
+    color: white;
+    margin: 0.4em 0em;
+    display: block;
+    transition: all 0.7s ;
+}
+.Registration form button:hover{
+    transform: scale(1.08);
+    background-color:rgb(118, 212, 24);
+
+}
